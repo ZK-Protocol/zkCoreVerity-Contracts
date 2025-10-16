@@ -1,0 +1,77 @@
+{
+  "network": "bsc",
+  "timestamp": "2025-10-09T07:35:15.332Z",
+  "deployer": "0x6564d0b297AF4cCAe809f1606e8d3542AD989Ab8",
+  "tokenCreator": "0xaD4e7A8ccabA0C896B048B489da72B093dcc67ee",
+  "chainId": "56",
+  "contracts": {
+    "factory": "0x46e343F882C793D08971Fb30073eE9570a505457",
+    "privacyTokenImplementation": "0x8dbbFE6DE3Fb3F05E774B9873c13BC63F81Fd712",
+    "privacyToken": "0x8a64A1128cC55BF72180D8f2A5C75fE1FEf8D933",
+    "verifiers": {
+      "mintVerifier": "0xa3d0A0287856E4655447E658b351aA447612902d",
+      "mintRolloverVerifier": "0x93A054024de4dB177706A59D70Dde7b26104f7c1",
+      "activeTransferVerifier": "0x1aeb8091af7Cfd8273740542b903E90904B1BaC7",
+      "finalizedTransferVerifier": "0x396dD199F7aA0035b23116201e72FA94bD82f7F8",
+      "rolloverTransferVerifier": "0x3d09c06BBd64822DDBa82a3C2Ce94707f97E6575"
+    }
+  },
+  "constructorArguments": {
+    "verifiers": {},
+    "privacyTokenImplementation": [],
+    "factory": [
+      "0x8dbbFE6DE3Fb3F05E774B9873c13BC63F81Fd712",
+      "0x6564d0b297AF4cCAe809f1606e8d3542AD989Ab8",
+      [
+        "0xa3d0A0287856E4655447E658b351aA447612902d",
+        "0x93A054024de4dB177706A59D70Dde7b26104f7c1",
+        "0x1aeb8091af7Cfd8273740542b903E90904B1BaC7",
+        "0x396dD199F7aA0035b23116201e72FA94bD82f7F8",
+        "0x3d09c06BBd64822DDBa82a3C2Ce94707f97E6575"
+      ],
+      "0x2a7c7c9b6ce5880b9f6f228d72bf6a575a526f29c66ecceef8b753d38bba7323",
+      "0x224ccc25981822d4c5b6fc199fbc74828488741c7151a6159ecfaab7c2a8bac9"
+    ],
+    "privacyToken": {
+      "note": "Token created via factory.createToken(), not directly deployed",
+      "createTokenParams": [
+        "4444",
+        "4",
+        "21000000000000000000000000",
+        "8000000000000000",
+        "1000000000000000000000"
+      ]
+    }
+  },
+  "tokenConfig": {
+    "name": "4444",
+    "symbol": "4",
+    "maxSupply": "21000000000000000000000000",
+    "mintPrice": "0.008",
+    "mintPriceWei": "8000000000000000",
+    "mintAmount": "1000.0",
+    "mintAmountWei": "1000000000000000000000"
+  },
+  "cryptoParams": {
+    "initialSubtreeEmptyRoot": "0x2a7c7c9b6ce5880b9f6f228d72bf6a575a526f29c66ecceef8b753d38bba7323",
+    "initialFinalizedEmptyRoot": "0x224ccc25981822d4c5b6fc199fbc74828488741c7151a6159ecfaab7c2a8bac9",
+    "subtreeCapacity": 65536,
+    "subtreeLevels": 16,
+    "rootTreeLevels": 20
+  },
+  "compiler": {
+    "version": "0.8.20",
+    "settings": {
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "viaIR": true
+    }
+  },
+  "blockInfo": {
+    "blockNumber": 63994513,
+    "timestamp": 1759995314,
+    "tokenCreationBlock": 63994500
+  }
+}

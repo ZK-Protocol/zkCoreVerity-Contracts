@@ -1,0 +1,52 @@
+{
+  "network": "bsc",
+  "timestamp": "2025-10-09T07:49:10.848Z",
+  "deploymentTimestamp": "2025-10-09T07:35:15.332Z",
+  "results": {
+    "success": [],
+    "failed": [
+      {
+        "name": "mintVerifier (Verifier)",
+        "address": "0xa3d0A0287856E4655447E658b351aA447612902d",
+        "error": "The Etherscan API responded with a failure status.\nThe verification may still succeed but should be checked manually.\nReason: Fail - Unable to verify. Compiled contract runtime bytecode does NOT match the on-chain runtime bytecode."
+      },
+      {
+        "name": "mintRolloverVerifier (Verifier)",
+        "address": "0x93A054024de4dB177706A59D70Dde7b26104f7c1",
+        "error": "The Etherscan API responded with a failure status.\nThe verification may still succeed but should be checked manually.\nReason: Fail - Unable to verify. Compiled contract runtime bytecode does NOT match the on-chain runtime bytecode."
+      },
+      {
+        "name": "activeTransferVerifier (Verifier)",
+        "address": "0x1aeb8091af7Cfd8273740542b903E90904B1BaC7",
+        "error": "The Etherscan API responded with a failure status.\nThe verification may still succeed but should be checked manually.\nReason: Fail - Unable to verify. Compiled contract runtime bytecode does NOT match the on-chain runtime bytecode."
+      },
+      {
+        "name": "finalizedTransferVerifier (Verifier)",
+        "address": "0x396dD199F7aA0035b23116201e72FA94bD82f7F8",
+        "error": "The Etherscan API responded with a failure status.\nThe verification may still succeed but should be checked manually.\nReason: Fail - Unable to verify. Compiled contract runtime bytecode does NOT match the on-chain runtime bytecode."
+      },
+      {
+        "name": "rolloverTransferVerifier (Verifier)",
+        "address": "0x3d09c06BBd64822DDBa82a3C2Ce94707f97E6575",
+        "error": "The Etherscan API responded with a failure status.\nThe verification may still succeed but should be checked manually.\nReason: Fail - Unable to verify. Compiled contract runtime bytecode does NOT match the on-chain runtime bytecode."
+      },
+      {
+        "name": "PrivacyToken Implementation",
+        "address": "0x8dbbFE6DE3Fb3F05E774B9873c13BC63F81Fd712",
+        "error": "The Etherscan API responded with a failure status.\nThe verification may still succeed but should be checked manually.\nReason: Fail - Unable to verify. Compiled contract runtime bytecode does NOT match the on-chain runtime bytecode."
+      },
+      {
+        "name": "PrivacyTokenFactory",
+        "address": "0x46e343F882C793D08971Fb30073eE9570a505457",
+        "error": "The Etherscan API responded with a failure status.\nThe verification may still succeed but should be checked manually.\nReason: Fail - Unable to verify. Compiled contract runtime bytecode does NOT match the on-chain runtime bytecode."
+      }
+    ],
+    "skipped": [
+      {
+        "name": "PrivacyToken Proxy",
+        "address": "0x8a64A1128cC55BF72180D8f2A5C75fE1FEf8D933",
+        "reason": "Proxy created via factory - implementation already verified"
+      }
+    ]
+  }
+}

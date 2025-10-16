@@ -1,0 +1,45 @@
+{
+  "network": "base",
+  "timestamp": "2025-10-09T05:48:02.084Z",
+  "deploymentTimestamp": "2025-10-09T04:37:38.336Z",
+  "results": {
+    "success": [
+      {
+        "name": "mintVerifier (Verifier)",
+        "address": "0x3387AF805493fEb4d5a1122715e9FcCCBF01deFc"
+      },
+      {
+        "name": "mintRolloverVerifier (Verifier)",
+        "address": "0xD2F83E51F0F1eB256201541EbA45adD6D16875A6"
+      },
+      {
+        "name": "activeTransferVerifier (Verifier)",
+        "address": "0xa92a3bD3ea8F568955f5f955aF7C4D3B6c60c125"
+      },
+      {
+        "name": "finalizedTransferVerifier (Verifier)",
+        "address": "0xEce105467177FB2d0C6CF6BAfa6Bd3bC5010E9e9"
+      },
+      {
+        "name": "rolloverTransferVerifier (Verifier)",
+        "address": "0xb80a48BaafE9c002B2fE81386C121cfe275f8469"
+      },
+      {
+        "name": "PrivacyToken Implementation",
+        "address": "0x8C943ea84880da470d092a49d8808eD5c1860A66"
+      },
+      {
+        "name": "PrivacyTokenFactory",
+        "address": "0x23ceEF8fFd28A00108B7173Dc467285B31b631BF"
+      }
+    ],
+    "failed": [],
+    "skipped": [
+      {
+        "name": "PrivacyToken Proxy",
+        "address": "0x5eCD591e44bc412cfb7152b665699aF07096A5D0",
+        "reason": "Proxy created via factory - implementation already verified"
+      }
+    ]
+  }
+}

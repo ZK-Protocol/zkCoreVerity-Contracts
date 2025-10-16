@@ -1,0 +1,77 @@
+{
+  "network": "base",
+  "timestamp": "2025-10-09T04:37:38.336Z",
+  "deployer": "0x6564d0b297AF4cCAe809f1606e8d3542AD989Ab8",
+  "tokenCreator": "0xF120c47209FBa91A345cBd3d4b77a8207BDD725F",
+  "chainId": "8453",
+  "contracts": {
+    "factory": "0x23ceEF8fFd28A00108B7173Dc467285B31b631BF",
+    "privacyTokenImplementation": "0x8C943ea84880da470d092a49d8808eD5c1860A66",
+    "privacyToken": "0x5eCD591e44bc412cfb7152b665699aF07096A5D0",
+    "verifiers": {
+      "mintVerifier": "0x3387AF805493fEb4d5a1122715e9FcCCBF01deFc",
+      "mintRolloverVerifier": "0xD2F83E51F0F1eB256201541EbA45adD6D16875A6",
+      "activeTransferVerifier": "0xa92a3bD3ea8F568955f5f955aF7C4D3B6c60c125",
+      "finalizedTransferVerifier": "0xEce105467177FB2d0C6CF6BAfa6Bd3bC5010E9e9",
+      "rolloverTransferVerifier": "0xb80a48BaafE9c002B2fE81386C121cfe275f8469"
+    }
+  },
+  "constructorArguments": {
+    "verifiers": {},
+    "privacyTokenImplementation": [],
+    "factory": [
+      "0x8C943ea84880da470d092a49d8808eD5c1860A66",
+      "0x6564d0b297AF4cCAe809f1606e8d3542AD989Ab8",
+      [
+        "0x3387AF805493fEb4d5a1122715e9FcCCBF01deFc",
+        "0xD2F83E51F0F1eB256201541EbA45adD6D16875A6",
+        "0xa92a3bD3ea8F568955f5f955aF7C4D3B6c60c125",
+        "0xEce105467177FB2d0C6CF6BAfa6Bd3bC5010E9e9",
+        "0xb80a48BaafE9c002B2fE81386C121cfe275f8469"
+      ],
+      "0x2a7c7c9b6ce5880b9f6f228d72bf6a575a526f29c66ecceef8b753d38bba7323",
+      "0x224ccc25981822d4c5b6fc199fbc74828488741c7151a6159ecfaab7c2a8bac9"
+    ],
+    "privacyToken": {
+      "note": "Token created via factory.createToken(), not directly deployed",
+      "createTokenParams": [
+        "ZK Protocol",
+        "ZK",
+        "21000000000000000000000000",
+        "3000000000000000",
+        "1000000000000000000000"
+      ]
+    }
+  },
+  "tokenConfig": {
+    "name": "ZK Protocol",
+    "symbol": "ZK",
+    "maxSupply": "21000000000000000000000000",
+    "mintPrice": "0.003",
+    "mintPriceWei": "3000000000000000",
+    "mintAmount": "1000.0",
+    "mintAmountWei": "1000000000000000000000"
+  },
+  "cryptoParams": {
+    "initialSubtreeEmptyRoot": "0x2a7c7c9b6ce5880b9f6f228d72bf6a575a526f29c66ecceef8b753d38bba7323",
+    "initialFinalizedEmptyRoot": "0x224ccc25981822d4c5b6fc199fbc74828488741c7151a6159ecfaab7c2a8bac9",
+    "subtreeCapacity": 65536,
+    "subtreeLevels": 16,
+    "rootTreeLevels": 20
+  },
+  "compiler": {
+    "version": "0.8.20",
+    "settings": {
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "viaIR": true
+    }
+  },
+  "blockInfo": {
+    "blockNumber": 36597656,
+    "timestamp": 1759984659,
+    "tokenCreationBlock": 36597652
+  }
+}
