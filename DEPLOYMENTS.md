@@ -110,7 +110,7 @@ ZKProtocol is **already deployed** on multiple networks. Anyone can use the fact
    mintAmount: 100000000000000000000     // 100 tokens (in wei)
    ```
 
-5. Set the value to `0.005 ETH` (creation fee)
+5. Set the value to `0.0005 ETH` (creation fee)
 
 6. Click "Write" to submit the transaction
 
@@ -151,7 +151,7 @@ const tx = await factory.createToken(
     "My Privacy Token",                    // name
     "MPT",                                 // symbol
     ethers.utils.parseEther("1000000"),    // maxSupply: 1M tokens
-    ethers.utils.parseEther("0.005"),      // mintPrice: 0.005 ETH per mint
+    ethers.utils.parseEther("0.0005"),      // mintPrice: 0.0005 ETH per mint
     ethers.utils.parseEther("100"),        // mintAmount: 100 tokens per mint
     { value: creationFee }
 );
@@ -186,7 +186,7 @@ async function main() {
         "My Privacy Token",
         "MPT",
         hre.ethers.utils.parseEther("1000000"),
-        hre.ethers.utils.parseEther("0.005"),
+        hre.ethers.utils.parseEther("0.0005"),
         hre.ethers.utils.parseEther("100"),
         { value: creationFee }
     );
@@ -268,7 +268,7 @@ mintAmount: 1 * 10^18            // 1 token per mint
 
 ```javascript
 Platform Treasury: 0x6564d0b297AF4cCAe809f1606e8d3542AD989Ab8
-Creation Fee: 0.005 ETH
+Creation Fee: 0.0005 ETH
 Platform Fee: 2.5% of mint revenue
 Subtree Height: 16 (65,536 notes per subtree)
 Root Tree Height: 20 (1,048,576 subtrees max)

@@ -576,7 +576,7 @@ struct Proof {
 
 ```solidity
 // Factory creation fee
-uint256 public creationFee = 0.005 ether;  // Paid once to deploy token
+uint256 public creationFee = 0.0005 ether;  // Paid once to deploy token
 
 // Minting fees (per token configuration)
 uint256 public MINT_PRICE;     // Set by token creator
